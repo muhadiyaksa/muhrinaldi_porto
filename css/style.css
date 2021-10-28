@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #4f4f4f;
+}
+/* all */
+.active {
+  color: #716ef9 !important;
+}
+.button-purple {
+  background-color: #716ef9;
+  padding: 9px 36px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* navbar */
+section.navigasi {
+  box-shadow: 2px 6px 15px rgba(192, 188, 188, 0.25);
+  z-index: 1;
+  background-color: white;
+}
+.navbar {
+  font-weight: 400;
+}
+.navbar img {
+  max-height: 40px;
+}
+.navbar .nav-link {
+  margin: 0 15px;
+}
+
+/* hero */
+section.hero {
+  position: relative;
+  z-index: -1;
+  background-color: #eff2fc;
+}
+section.hero img.elemen2 {
+  position: absolute;
+  top: -6%;
+  left: -6%;
+  z-index: -1;
+}
+.profile {
+  padding-right: 220px;
+  margin-top: 90px;
+}
+.profile p {
+  margin-bottom: 40px;
+}
+.ulasan {
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+.ulasan .kotak {
+  display: inline-block;
+  border-left: 8px solid #56cbfc;
+  padding: 3px 30px;
+  margin-right: 30px;
+}
+.image {
+  position: relative;
+}
+.image img.elemen1 {
+  position: absolute;
+  right: 30%;
+  top: -10%;
+}
+.image img.profil {
+  margin-top: 60px;
+  max-width: 380px;
+}
+
+/* project */
+section.project {
+  padding: 60px 0px;
+  position: relative;
+  overflow: hidden;
+}
+section.project img.elemen3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+section.project img.elemen4 {
+  position: absolute;
+  top: 0;
+  right: -5%;
+  z-index: -1;
+}
+section.project h4 {
+  border-left: 14px solid #56cbfc;
+  height: 100%;
+  padding-left: 40px;
+  margin-bottom: 60px;
+}
+section.project .wadah {
+  background-color: #eff2fc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 28px 0px;
+}
+
+section.about {
+  position: relative;
+  background-color: #eff2fc;
+  padding: 90px 0px;
+  overflow: hidden;
+}
+section.about img.elemen1 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  max-height: 100px;
+}
+section.about img.elemen5 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+section.about img.elemen11 {
+  position: absolute;
+  max-height: 180px;
+  bottom: 0;
+  right: -3%;
+}
+
+section.about h4 {
+  border-left: 14px solid #56cbfc;
+  padding-left: 40px;
+  margin-bottom: 60px;
+  padding-right: 220px;
+  margin-top: 90px;
+}
+
+section.alasan {
+  position: relative;
+  background-color: #eff2fc;
+  padding-bottom: 80px;
+  z-index: -1;
+}
+section.alasan h4 {
+  border-left: 14px solid #56cbfc;
+  padding-left: 40px;
+  margin-bottom: 60px;
+  padding-right: 220px;
+}
+section.alasan img.elemen1 {
+  max-height: 250px;
+  z-index: -1;
+  left: 50px;
+  bottom: -20%;
+  position: absolute;
+}
+section.alasan .wadah {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+section.pesan {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  padding-bottom: 80px;
+}
+section.pesan h4 {
+  border-left: 14px solid #56cbfc;
+  padding-left: 40px;
+  margin-bottom: 60px;
+  padding-right: 120px;
+}
+section.pesan p {
+  padding-right: 140px;
+  margin-bottom: 20px;
+}
+section.pesan input,
+section.pesan textarea {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: #eff2fc;
+  padding: 10px 15px;
+  font-size: 16px;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+section.pesan textarea {
+  height: 255px;
+}
+
+section.pesan .kontak img {
+  max-height: 400px;
+}
+section.pesan .kontak h2 i {
+  color: #716ef9;
+}
+section.pesan table {
+  margin: 0 auto;
+}
+section.pesan table tr td {
+  padding-bottom: 20px;
+}
+section.pesan table tr td:nth-child(1) {
+  padding-right: 30px;
+}
+
+section.pesan .mediasosial {
+  margin-top: 20px;
+}
+section.pesan .mediasosial img {
+  margin-left: 10px;
+}
+
+section.footer {
+  text-align: center;
+  background-color: #eff2fc;
+  padding: 10px 0px;
+}
