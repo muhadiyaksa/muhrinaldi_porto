@@ -1,3 +1,4 @@
+const hero = document.querySelector(".hero");
 const emailTujuan = document.querySelector("#email");
 const subjekTujuan = document.querySelector("#subject");
 const bodyTujuan = document.querySelector("#body");
@@ -12,3 +13,7 @@ tombolKirim.addEventListener("click", function () {
     alert("Value Is not valid");
   }
 });
+
+setTimeout(() => {
+  hero.classList.add("eits");
+}, 3000);
