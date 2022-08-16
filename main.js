@@ -13,7 +13,3 @@ tombolKirim.addEventListener("click", function () {
     alert("Value Is not valid");
   }
 });
-
-setTimeout(() => {
-  hero.classList.add("eits");
-}, 3000);
